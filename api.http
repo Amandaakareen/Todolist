@@ -1,0 +1,29 @@
+GET http://localhost:3333/tasks
+
+###
+
+POST http://localhost:3333/tasks
+content-type: application/json
+
+{
+    "description": "Organizar o currículo e enviar pro Rubens"
+}
+
+###
+
+POST http://localhost:3333/tasks
+content-type: application/json
+
+{
+    "description": "Teste"
+}
+
+###
+
+PUT http://localhost:3333/tasks/8
+content-type: application/json
+
+###
+
+DELETE http://localhost:3333/tasks/8
+content-type: application/json
